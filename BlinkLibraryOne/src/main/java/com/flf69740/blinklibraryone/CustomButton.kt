@@ -63,7 +63,6 @@ class CustomButton : View {
         isAntiAlias = true
         shader = null
         color = Color.WHITE
-        typeface = Typeface.createFromAsset(context.assets, "fonts/Roboto-Bold.ttf")
         textAlign = Paint.Align.CENTER
         style = Paint.Style.FILL
         textSize = height/4f
